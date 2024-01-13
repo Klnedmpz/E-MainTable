@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 7</title>
+    <style>
+        html{
+            height: 100%;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            background-color: chocolate;
+    
+            
+        }
+        header {
+            background-image: url(header.jpg);
+            background-repeat: no no-repeat;
+            font-family: brush script Mt;
+            color: rgb(8, 7, 7);
+            text-align: center;
+            padding: 10px;
+            
+        }
+        h2{text-align: center;
+            font-family: monotype corsiva;
+            font-size: 40px;
+            color: #f5f1f1;
+
+        }
+        h1{font-size: 60px;
+            }
+        nav {
+            background-color: #f1f1f1;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 0.5em 1em;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #90adef;
+        }
+
+       
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Activities</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Table.html">Table</a></li>
+            <li><a href="List.html">List</a></li>
+            <li><a href="Image.html">Image Gallery</a></li>
+        </ul>
+    </nav>
+
+    
+        <h2>Welcome to my Website!</h2>
+        
+
+    <footer>
+        <a href="https://www.facebook.com/"><img src="fb.png" alt="facebook" style="width: 40px;height: 40px;"></a>
+       <a href="https://www.instagram.com/accounts/login/" ><img src="instgram.png"style="width: 40px;height: 40px;"></a>
+    </footer>
+
+</body>
+</html>
